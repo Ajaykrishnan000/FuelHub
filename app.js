@@ -1,4 +1,4 @@
-const SHEET_URL =  "https://opensheet.elk.sh/1mY2_sIyD8t2l3LR4ztLL3Cy-EAHG-Ej7vm01w90Ndww/Products";
+const SHEET_URL =  "hhttps://docs.google.com/spreadsheets/d/1mY2_sIyD8t2l3LR4ztLL3Cy-EAHG-Ej7vm01w90Ndww/edit?usp=sharing";
 const phone = "919XXXXXXXXX"; // your WhatsApp number
 
 let allProducts = [];
