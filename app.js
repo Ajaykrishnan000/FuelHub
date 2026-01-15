@@ -26,7 +26,7 @@ function renderProducts(products) {
         <img src="${p.image_url}" loading="lazy" />
         <h4>${p.brand}</h4>
         <p>${p.product_name}</p>
-        <div class="price">$${p.price}</div>
+        <div class="price">₹${p.price}</div>
         <small>⭐ ${p.rating}</small>
 
         <div class="whatsapp"
