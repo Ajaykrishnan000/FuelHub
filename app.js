@@ -1,5 +1,5 @@
 const SHEET_URL =  "https://opensheet.elk.sh/1mY2_sIyD8t2l3LR4ztLL3Cy-EAHG-Ej7vm01w90Ndww/1";
-const phone = "919XXXXXXXXX";
+const phone = "919809720203";
 
 let allProducts = [];
 let activeType = "all";
