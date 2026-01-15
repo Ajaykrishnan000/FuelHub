@@ -46,14 +46,19 @@ function applyFilters() {
       p.brand.toLowerCase().includes(searchText) ||
       p.product_name.toLowerCase().includes(searchText);
 
+    const productCategory = (p.category || "")
+      .toLowerCase()
+      .trim();
+
     const matchesType =
-      activeType === "all" || p.category === activeType;
+      activeType === "all" || productCategory === activeType;
 
     return matchesSearch && matchesType;
   });
 
   renderProducts(filtered);
 }
+
 
 // 🔍 Search
 searchInput.addEventListener("input", applyFilters);
