@@ -51,13 +51,14 @@ function applyFilters() {
       .trim();
 
     const matchesType =
-      activeType === "all" || productCategory === activeType;
+      activeType === "all" || productCategory.includes(activeType);
 
     return matchesSearch && matchesType;
   });
 
   renderProducts(filtered);
 }
+
 
 
 // 🔍 Search
